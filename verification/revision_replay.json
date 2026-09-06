@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "python": "3.14.6",
+  "input_cohorts_regenerated": 6000,
+  "archived_day_runs": 72000,
+  "replication_rows": 2400,
+  "statistical_estimates_checked": 3960,
+  "full_clinic_day_replays": 4,
+  "example_traces_reproduced": 4,
+  "numeric_absolute_tolerance": 1e-09,
+  "numeric_relative_tolerance": 1e-11,
+  "elapsed_seconds": 8.77
+}

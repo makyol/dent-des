@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "date": "2026-09-07",
+  "pages": 6,
+  "paper_size": "US Letter",
+  "visual_inspection": "All six pages inspected; DentDES title, queue-fairness and RTLS/RFID literature additions, acknowledgment removal, and concise data and code availability statement verified",
+  "author_metadata": "blank",
+  "known_author_identifiers_in_extracted_text": false,
+  "embedded_fonts": true,
+  "type3_fonts": false,
+  "overfull_boxes": false,
+  "unresolved_references": false,
+  "references": 22,
+  "citation_occurrences": 20,
+  "pdf_sha256": "9eae0486fe1d9269588cac131eda5f83612601dac735f3872b61094412a515b2",
+  "manuscript_source_sha256": "b7e038a7619f73ce7566029dade62169abbf8785705957ddfe632269875acae2",
+  "displayed_equations": 0,
+  "mathematical_details": "METHOD_DETAILS.md",
+  "iot_extension_included": false
+}

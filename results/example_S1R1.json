@@ -1,0 +1,1328 @@
+{
+  "patients": [
+    {
+      "pid": 0,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 1.5719445837977708,
+      "treatment": 21.49125608528943,
+      "registration": 2.41691722372529,
+      "documentation": 8.314524450634437,
+      "checkout": 3.676962444797271,
+      "cleaning": 8.200236580976382,
+      "appointment": 15.0,
+      "arrival": 16.57194458379777,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 18.988861807523058,
+      "start": 18.988861807523058,
+      "clinical_end": 48.794642343446924,
+      "cleaning_start": 48.794642343446924,
+      "discharge": 52.47160478824419,
+      "chair_released": 56.994878924423304,
+      "kit_ready_for_cycle": 64.9948789244233,
+      "cycle_start": 64.9948789244233,
+      "kit_released": 93.9948789244233,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 1,
+      "kind": "complex",
+      "attends": true,
+      "arrival_offset": -8.749388892671176,
+      "treatment": 57.406674010866155,
+      "registration": 2.801851669688142,
+      "documentation": 6.987344098803397,
+      "checkout": 3.1158472634466645,
+      "cleaning": 8.707270203340876,
+      "appointment": 28.916017267477713,
+      "arrival": 20.166628374806535,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 22.968480044494676,
+      "start": 22.968480044494676,
+      "clinical_end": 87.36249815416423,
+      "cleaning_start": 87.36249815416423,
+      "discharge": 90.4783454176109,
+      "chair_released": 96.0697683575051,
+      "kit_ready_for_cycle": 104.0697683575051,
+      "cycle_start": 104.0697683575051,
+      "kit_released": 133.0697683575051,
+      "kit_unavailable_wait": 0
+    },
+    {
+      "pid": 2,
+      "kind": "impression",
+      "attends": true,
+      "arrival_offset": 11.624225232952602,
+      "treatment": 15.992598471230108,
+      "registration": 1.9394192840589404,
+      "documentation": 10.605642859157246,
+      "checkout": 3.46231958853939,
+      "cleaning": 9.411757023496925,
+      "appointment": 50.24920109883949,
+      "arrival": 61.873426331792096,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 63.81284561585104,
+      "start": 63.81284561585104,
+      "clinical_end": 90.41108694623838,
+      "cleaning_start": 90.41108694623838,
+      "discharge": 93.94066500615028,
+      "chair_released": 99.82284396973532,
+      "kit_ready_for_cycle": 107.82284396973532,
+      "cycle_start": 133.0697683575051,
+      "kit_released": 162.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 3,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -3.6844016539033935,
+      "treatment": 25.139965576883274,
+      "registration": 2.893966744002091,
+      "documentation": 3.7534102348261253,
+      "checkout": 2.0294051961926582,
+      "cleaning": 8.407172447939871,
+      "appointment": 66.28440881314124,
+      "arrival": 62.60000715923785,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 66.70681235985313,
+      "start": 87.36249815416423,
+      "clinical_end": 116.25587396587363,
+      "cleaning_start": 116.25587396587363,
+      "discharge": 118.28527916206629,
+      "chair_released": 124.6630464138135,
+      "kit_ready_for_cycle": 132.6630464138135,
+      "cycle_start": 133.0697683575051,
+      "kit_released": 162.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 5,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": -2.9272338613848223,
+      "treatment": 26.36492853977717,
+      "registration": 4.516690202697328,
+      "documentation": 7.401958887602753,
+      "checkout": 1.34822760885908,
+      "cleaning": 10.358065416523235,
+      "appointment": 97.41296182093403,
+      "arrival": 94.48572795954921,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 99.00241816224654,
+      "start": 104.0697683575051,
+      "clinical_end": 137.836655784885,
+      "cleaning_start": 137.836655784885,
+      "discharge": 139.1848833937441,
+      "chair_released": 148.19472120140824,
+      "kit_ready_for_cycle": 156.19472120140824,
+      "cycle_start": 162.0697683575051,
+      "kit_released": 191.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 6,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -2.129336759720574,
+      "treatment": 30.956330415565102,
+      "registration": 2.5575916002167425,
+      "documentation": 9.009098414570744,
+      "checkout": 3.736030971098211,
+      "cleaning": 9.453571201283932,
+      "appointment": 114.62549756124912,
+      "arrival": 112.49616080152855,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 115.05375240174529,
+      "start": 116.25587396587363,
+      "clinical_end": 156.22130279600947,
+      "cleaning_start": 156.22130279600947,
+      "discharge": 160.4225090000475,
+      "chair_released": 165.6748739972934,
+      "kit_ready_for_cycle": 173.6748739972934,
+      "cycle_start": 191.0697683575051,
+      "kit_released": 220.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 8,
+      "kind": "impression",
+      "attends": true,
+      "arrival_offset": 0.5766498437074112,
+      "treatment": 17.263306006940525,
+      "registration": 3.9613832377938705,
+      "documentation": 8.331018428510166,
+      "checkout": 3.3574307211264522,
+      "cleaning": 8.753351461885448,
+      "appointment": 142.45753209620452,
+      "arrival": 143.03418193991192,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 146.9955651777058,
+      "start": 146.9955651777058,
+      "clinical_end": 172.5898896131565,
+      "cleaning_start": 172.5898896131565,
+      "discharge": 176.44196283048734,
+      "chair_released": 181.34324107504193,
+      "kit_ready_for_cycle": 189.34324107504193,
+      "cycle_start": 191.0697683575051,
+      "kit_released": 220.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 9,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -4.916370262568465,
+      "treatment": 14.369872136428558,
+      "registration": 3.1101084810115056,
+      "documentation": 9.5352949341179,
+      "checkout": 5.332111802303361,
+      "cleaning": 10.581911440724344,
+      "appointment": 158.49273981050627,
+      "arrival": 153.5763695479378,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 156.6864780289493,
+      "start": 162.0697683575051,
+      "clinical_end": 185.97493542805157,
+      "cleaning_start": 185.97493542805157,
+      "discharge": 191.7705688321054,
+      "chair_released": 196.55684686877592,
+      "kit_ready_for_cycle": 204.55684686877592,
+      "cycle_start": 220.0697683575051,
+      "kit_released": 249.0697683575051,
+      "kit_unavailable_wait": 5.383290328555802
+    },
+    {
+      "pid": 10,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -2.1640337874796765,
+      "treatment": 25.06752968266867,
+      "registration": 2.839808818856526,
+      "documentation": 4.8245096200541315,
+      "checkout": 3.1417895770310778,
+      "cleaning": 12.419691350308288,
+      "appointment": 172.408757077984,
+      "arrival": 170.24472329050434,
+      "bypasses": 1,
+      "instrument_unavailable_at_registration": true,
+      "registered": 173.08453210936088,
+      "start": 220.0697683575051,
+      "clinical_end": 249.9618076602279,
+      "cleaning_start": 249.9618076602279,
+      "discharge": 253.10359723725898,
+      "chair_released": 262.3814990105362,
+      "kit_ready_for_cycle": 270.3814990105362,
+      "cycle_start": 278.0697683575051,
+      "kit_released": 307.0697683575051,
+      "kit_unavailable_wait": 46.98523624814422
+    },
+    {
+      "pid": 11,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -2.3469053370608695,
+      "treatment": 17.305530633600792,
+      "registration": 2.4605880214011964,
+      "documentation": 6.069943695385365,
+      "checkout": 3.852319873504882,
+      "cleaning": 7.0113614228090215,
+      "appointment": 186.3247743454617,
+      "arrival": 183.97786900840083,
+      "bypasses": 2,
+      "instrument_unavailable_at_registration": true,
+      "registered": 186.43845702980204,
+      "start": 249.9618076602279,
+      "clinical_end": 273.33728198921403,
+      "cleaning_start": 273.33728198921403,
+      "discharge": 279.89137049165726,
+      "chair_released": 280.3486434120231,
+      "kit_ready_for_cycle": 288.3486434120231,
+      "cycle_start": 307.0697683575051,
+      "kit_released": 336.0697683575051,
+      "kit_unavailable_wait": 62.63131132770306
+    },
+    {
+      "pid": 12,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -1.5084251299369167,
+      "treatment": 30.116420938369213,
+      "registration": 1.428710771984946,
+      "documentation": 7.988081422583496,
+      "checkout": 2.5743864533248777,
+      "cleaning": 7.9611928297307095,
+      "appointment": 200.2407916129394,
+      "arrival": 198.7323664830025,
+      "bypasses": 2,
+      "instrument_unavailable_at_registration": true,
+      "registered": 200.16107725498745,
+      "start": 307.0697683575051,
+      "clinical_end": 345.1742707184578,
+      "cleaning_start": 345.1742707184578,
+      "discharge": 347.7486571717827,
+      "chair_released": 353.1354635481885,
+      "kit_ready_for_cycle": 361.1354635481885,
+      "cycle_start": 384.22070619767743,
+      "kit_released": 413.22070619767743,
+      "kit_unavailable_wait": 106.01665179979486
+    },
+    {
+      "pid": 13,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": -11.318454683621013,
+      "treatment": 15.780892745694501,
+      "registration": 1.85998026869749,
+      "documentation": 6.272926458879267,
+      "checkout": 3.112500351854178,
+      "cleaning": 9.979340829059916,
+      "appointment": 214.1568088804171,
+      "arrival": 202.83835419679608,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 204.69833446549356,
+      "start": 204.69833446549356,
+      "clinical_end": 226.75215367006734,
+      "cleaning_start": 226.75215367006734,
+      "discharge": 229.86465402192152,
+      "chair_released": 236.73149449912725,
+      "kit_ready_for_cycle": 244.73149449912725,
+      "cycle_start": 249.0697683575051,
+      "kit_released": 278.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 14,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": -8.713416267421767,
+      "treatment": 33.96200019098243,
+      "registration": 4.037960344595943,
+      "documentation": 9.170980039422329,
+      "checkout": 2.8889548905806843,
+      "cleaning": 10.756263829434694,
+      "appointment": 231.3693446207322,
+      "arrival": 222.65592835331043,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 226.69388869790637,
+      "start": 226.75215367006734,
+      "clinical_end": 269.8851339004721,
+      "cleaning_start": 269.8851339004721,
+      "discharge": 272.7740887910528,
+      "chair_released": 280.6413977299068,
+      "kit_ready_for_cycle": 288.6413977299068,
+      "cycle_start": 307.0697683575051,
+      "kit_released": 336.0697683575051,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 15,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": 2.769919842852212,
+      "treatment": 23.785514434967837,
+      "registration": 3.3762278025065067,
+      "documentation": 8.183311100793366,
+      "checkout": 2.713930770259361,
+      "cleaning": 8.182112304411113,
+      "appointment": 248.58188036104727,
+      "arrival": 251.35180020389947,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 256.4798250397655,
+      "start": 307.0697683575051,
+      "clinical_end": 339.0385938932663,
+      "cleaning_start": 339.0385938932663,
+      "discharge": 341.75252466352566,
+      "chair_released": 347.22070619767743,
+      "kit_ready_for_cycle": 355.22070619767743,
+      "cycle_start": 355.22070619767743,
+      "kit_released": 384.22070619767743,
+      "kit_unavailable_wait": 21.589943317739596
+    },
+    {
+      "pid": 16,
+      "kind": "complex",
+      "attends": true,
+      "arrival_offset": 5.967238063202772,
+      "treatment": 54.413937386130904,
+      "registration": 3.2649618270995435,
+      "documentation": 8.613052240183961,
+      "checkout": 4.155546350127519,
+      "cleaning": 10.304458729669138,
+      "appointment": 265.79441610136234,
+      "arrival": 271.76165416456513,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 276.0390506181524,
+      "start": 339.0385938932663,
+      "clinical_end": 402.06558351958114,
+      "cleaning_start": 402.06558351958114,
+      "discharge": 407.2270280709779,
+      "chair_released": 412.3700422492503,
+      "kit_ready_for_cycle": 420.3700422492503,
+      "cycle_start": 420.3700422492503,
+      "kit_released": 449.3700422492503,
+      "kit_unavailable_wait": 0
+    },
+    {
+      "pid": 17,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": 2.9251068382657888,
+      "treatment": 47.49525576174778,
+      "registration": 3.6438685332856395,
+      "documentation": 8.475607122835255,
+      "checkout": 2.709465310441763,
+      "cleaning": 7.580621563692057,
+      "appointment": 287.12759993272414,
+      "arrival": 290.0527067709899,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 293.69657530427554,
+      "start": 355.22070619767743,
+      "clinical_end": 411.19156908226046,
+      "cleaning_start": 411.19156908226046,
+      "discharge": 413.90103439270223,
+      "chair_released": 418.7721906459525,
+      "kit_ready_for_cycle": 426.7721906459525,
+      "cycle_start": 449.3700422492503,
+      "kit_released": 478.3700422492503,
+      "kit_unavailable_wait": 29.0
+    },
+    {
+      "pid": 18,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -5.6534237307383375,
+      "treatment": 16.279309688865673,
+      "registration": 2.5651970821359207,
+      "documentation": 6.90081454783761,
+      "checkout": 2.440570093555294,
+      "cleaning": 11.301649380564044,
+      "appointment": 304.34013567303924,
+      "arrival": 298.6867119423009,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 301.2519090244368,
+      "start": 402.06558351958114,
+      "clinical_end": 425.24570775628445,
+      "cleaning_start": 425.24570775628445,
+      "discharge": 431.09573378868856,
+      "chair_released": 436.5473571368485,
+      "kit_ready_for_cycle": 444.5473571368485,
+      "cycle_start": 449.3700422492503,
+      "kit_released": 478.3700422492503,
+      "kit_unavailable_wait": 34.81785933306827
+    },
+    {
+      "pid": 19,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 10.651003573290591,
+      "treatment": 25.86805457077437,
+      "registration": 1.1566324043678957,
+      "documentation": 8.43699062786371,
+      "checkout": 3.4277450716512914,
+      "cleaning": 8.824044505206565,
+      "appointment": 318.2561529405169,
+      "arrival": 328.90715651380754,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 330.0637889181754,
+      "start": 420.3700422492503,
+      "clinical_end": 454.67508744788836,
+      "cleaning_start": 454.67508744788836,
+      "discharge": 458.1028325195397,
+      "chair_released": 463.49913195309495,
+      "kit_ready_for_cycle": 471.49913195309495,
+      "cycle_start": 478.3700422492503,
+      "kit_released": 507.3700422492503,
+      "kit_unavailable_wait": 17.16110211742597
+    },
+    {
+      "pid": 20,
+      "kind": "restorative",
+      "attends": true,
+      "arrival_offset": 2.9221201616924346,
+      "treatment": 30.64426021366615,
+      "registration": 2.89158608824664,
+      "documentation": 9.831323167217079,
+      "checkout": 3.5638287528570936,
+      "cleaning": 11.351206765970053,
+      "appointment": 332.17217020799467,
+      "arrival": 335.0942903696871,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 337.9858764579337,
+      "start": 426.7721906459525,
+      "clinical_end": 467.2477740268357,
+      "cleaning_start": 467.2477740268357,
+      "discharge": 470.8116027796928,
+      "chair_released": 478.5989807928058,
+      "kit_ready_for_cycle": 486.5989807928058,
+      "cycle_start": 507.3700422492503,
+      "kit_released": 536.3700422492502,
+      "kit_unavailable_wait": 29.0
+    },
+    {
+      "pid": 21,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 0.2332085311413153,
+      "treatment": 41.99365677262735,
+      "registration": 2.5035373066669413,
+      "documentation": 5.210330382366573,
+      "checkout": 2.754248971778936,
+      "cleaning": 10.70031637753408,
+      "appointment": 349.3847059483098,
+      "arrival": 349.6179144794511,
+      "bypasses": 1,
+      "instrument_unavailable_at_registration": false,
+      "registered": 352.12145178611803,
+      "start": 478.3700422492503,
+      "clinical_end": 525.5740294042442,
+      "cleaning_start": 525.5740294042442,
+      "discharge": 528.3282783760231,
+      "chair_released": 536.2743457817783,
+      "kit_ready_for_cycle": 544.2743457817783,
+      "cycle_start": 565.3700422492502,
+      "kit_released": 594.3700422492502,
+      "kit_unavailable_wait": 69.15512267809629
+    },
+    {
+      "pid": 22,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -6.380055876623128,
+      "treatment": 33.55955739881101,
+      "registration": 1.9186121695547895,
+      "documentation": 8.656062585737297,
+      "checkout": 4.018991276958575,
+      "cleaning": 5.990305142016247,
+      "appointment": 363.3007232157875,
+      "arrival": 356.92066733916437,
+      "bypasses": 1,
+      "instrument_unavailable_at_registration": false,
+      "registered": 358.83927950871913,
+      "start": 507.3700422492503,
+      "clinical_end": 549.5856622337985,
+      "cleaning_start": 549.5856622337985,
+      "discharge": 553.6046535107571,
+      "chair_released": 555.5759673758148,
+      "kit_ready_for_cycle": 563.5759673758148,
+      "cycle_start": 565.3700422492502,
+      "kit_released": 594.3700422492502,
+      "kit_unavailable_wait": 98.15512267809629
+    },
+    {
+      "pid": 23,
+      "kind": "impression",
+      "attends": true,
+      "arrival_offset": -4.517160432655109,
+      "treatment": 31.86928708888641,
+      "registration": 4.01039366679549,
+      "documentation": 9.795125031911324,
+      "checkout": 5.159909237373477,
+      "cleaning": 6.808137796635862,
+      "appointment": 377.2167404832652,
+      "arrival": 372.6995800506101,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 376.7099737174056,
+      "start": 454.67508744788836,
+      "clinical_end": 496.3394995686861,
+      "cleaning_start": 496.3394995686861,
+      "discharge": 501.4994088060596,
+      "chair_released": 503.147637365322,
+      "kit_ready_for_cycle": 511.147637365322,
+      "cycle_start": 536.3700422492502,
+      "kit_released": 565.3700422492502,
+      "kit_unavailable_wait": 0.0
+    },
+    {
+      "pid": 25,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": -7.540844722331993,
+      "treatment": 14.183509391713416,
+      "registration": 3.44436097813772,
+      "documentation": 7.829195420227429,
+      "checkout": 2.0040521571718064,
+      "cleaning": 8.783952470257262,
+      "appointment": 407.1679654650447,
+      "arrival": 399.6271207427127,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": false,
+      "registered": 403.0714817208504,
+      "start": 594.3700422492502,
+      "clinical_end": 616.382747061191,
+      "cleaning_start": 616.382747061191,
+      "discharge": 618.3867992183629,
+      "chair_released": 625.1666995314483,
+      "kit_ready_for_cycle": 633.1666995314483,
+      "cycle_start": 633.1666995314483,
+      "kit_released": 662.1666995314483,
+      "kit_unavailable_wait": 184.149224476827
+    },
+    {
+      "pid": 24,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 10.35495954340824,
+      "treatment": 13.897725924713372,
+      "registration": 1.634516756059227,
+      "documentation": 9.734406633626381,
+      "checkout": 3.25742505094923,
+      "cleaning": 8.279138058909972,
+      "appointment": 393.25194819756695,
+      "arrival": 403.6069077409752,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 408.8615448270371,
+      "start": 594.3700422492502,
+      "clinical_end": 618.00217480759,
+      "cleaning_start": 618.00217480759,
+      "discharge": 621.6442242693121,
+      "chair_released": 626.2813128665,
+      "kit_ready_for_cycle": 634.2813128665,
+      "cycle_start": 662.1666995314483,
+      "kit_released": 691.1666995314483,
+      "kit_unavailable_wait": 178.35916137064027
+    },
+    {
+      "pid": 26,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 4.044842796883659,
+      "treatment": 26.95569220352311,
+      "registration": 3.526338165727232,
+      "documentation": 8.52396807368885,
+      "checkout": 2.4586244459358833,
+      "cleaning": 11.715140367098197,
+      "appointment": 421.08398273252243,
+      "arrival": 425.1288255294061,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 428.6551636951333,
+      "start": 662.1666995314483,
+      "clinical_end": 697.6463598086602,
+      "cleaning_start": 697.6463598086602,
+      "discharge": 700.1049842545962,
+      "chair_released": 709.3615001757585,
+      "kit_ready_for_cycle": 717.3615001757585,
+      "cycle_start": 717.3615001757585,
+      "kit_released": 746.3615001757585,
+      "kit_unavailable_wait": 233.51153583631503
+    },
+    {
+      "pid": 27,
+      "kind": "routine",
+      "attends": true,
+      "arrival_offset": 12.0,
+      "treatment": 21.623751079091765,
+      "registration": 2.8554003664147647,
+      "documentation": 9.917223841049076,
+      "checkout": 2.7748323890673934,
+      "cleaning": 13.118294991014075,
+      "appointment": 435.0,
+      "arrival": 447.0,
+      "bypasses": 0,
+      "instrument_unavailable_at_registration": true,
+      "registered": 449.85540036641476,
+      "start": 691.1666995314483,
+      "clinical_end": 722.7076744515891,
+      "cleaning_start": 722.7076744515891,
+      "discharge": 725.4825068406565,
+      "chair_released": 735.8259694426032,
+      "kit_ready_for_cycle": 743.8259694426032,
+      "cycle_start": 746.3615001757585,
+      "kit_released": 775.3615001757585,
+      "kit_unavailable_wait": 241.31129916503357
+    }
+  ],
+  "events": [
+    {
+      "time": 16.57194458379777,
+      "event": "arrival",
+      "pid": 0
+    },
+    {
+      "time": 18.988861807523058,
+      "event": "registered",
+      "pid": 0
+    },
+    {
+      "time": 18.988861807523058,
+      "event": "treatment_start",
+      "pid": 0,
+      "bypasses": 0
+    },
+    {
+      "time": 20.166628374806535,
+      "event": "arrival",
+      "pid": 1
+    },
+    {
+      "time": 22.968480044494676,
+      "event": "registered",
+      "pid": 1
+    },
+    {
+      "time": 22.968480044494676,
+      "event": "treatment_start",
+      "pid": 1,
+      "bypasses": 0
+    },
+    {
+      "time": 52.47160478824419,
+      "event": "discharge",
+      "pid": 0
+    },
+    {
+      "time": 61.873426331792096,
+      "event": "arrival",
+      "pid": 2
+    },
+    {
+      "time": 62.60000715923785,
+      "event": "arrival",
+      "pid": 3
+    },
+    {
+      "time": 63.81284561585104,
+      "event": "registered",
+      "pid": 2
+    },
+    {
+      "time": 63.81284561585104,
+      "event": "treatment_start",
+      "pid": 2,
+      "bypasses": 0
+    },
+    {
+      "time": 64.9948789244233,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 66.70681235985313,
+      "event": "registered",
+      "pid": 3
+    },
+    {
+      "time": 87.36249815416423,
+      "event": "treatment_start",
+      "pid": 3,
+      "bypasses": 0
+    },
+    {
+      "time": 90.4783454176109,
+      "event": "discharge",
+      "pid": 1
+    },
+    {
+      "time": 93.94066500615028,
+      "event": "discharge",
+      "pid": 2
+    },
+    {
+      "time": 94.48572795954921,
+      "event": "arrival",
+      "pid": 5
+    },
+    {
+      "time": 99.00241816224654,
+      "event": "registered",
+      "pid": 5
+    },
+    {
+      "time": 104.0697683575051,
+      "event": "treatment_start",
+      "pid": 5,
+      "bypasses": 0
+    },
+    {
+      "time": 104.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 112.49616080152855,
+      "event": "arrival",
+      "pid": 6
+    },
+    {
+      "time": 115.05375240174529,
+      "event": "registered",
+      "pid": 6
+    },
+    {
+      "time": 116.25587396587363,
+      "event": "treatment_start",
+      "pid": 6,
+      "bypasses": 0
+    },
+    {
+      "time": 118.28527916206629,
+      "event": "discharge",
+      "pid": 3
+    },
+    {
+      "time": 133.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 2
+    },
+    {
+      "time": 139.1848833937441,
+      "event": "discharge",
+      "pid": 5
+    },
+    {
+      "time": 143.03418193991192,
+      "event": "arrival",
+      "pid": 8
+    },
+    {
+      "time": 146.9955651777058,
+      "event": "registered",
+      "pid": 8
+    },
+    {
+      "time": 146.9955651777058,
+      "event": "treatment_start",
+      "pid": 8,
+      "bypasses": 0
+    },
+    {
+      "time": 153.5763695479378,
+      "event": "arrival",
+      "pid": 9
+    },
+    {
+      "time": 156.6864780289493,
+      "event": "registered",
+      "pid": 9
+    },
+    {
+      "time": 160.4225090000475,
+      "event": "discharge",
+      "pid": 6
+    },
+    {
+      "time": 162.0697683575051,
+      "event": "treatment_start",
+      "pid": 9,
+      "bypasses": 0
+    },
+    {
+      "time": 162.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 170.24472329050434,
+      "event": "arrival",
+      "pid": 10
+    },
+    {
+      "time": 173.08453210936088,
+      "event": "registered",
+      "pid": 10
+    },
+    {
+      "time": 176.44196283048734,
+      "event": "discharge",
+      "pid": 8
+    },
+    {
+      "time": 183.97786900840083,
+      "event": "arrival",
+      "pid": 11
+    },
+    {
+      "time": 186.43845702980204,
+      "event": "registered",
+      "pid": 11
+    },
+    {
+      "time": 191.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 2
+    },
+    {
+      "time": 191.7705688321054,
+      "event": "discharge",
+      "pid": 9
+    },
+    {
+      "time": 198.7323664830025,
+      "event": "arrival",
+      "pid": 12
+    },
+    {
+      "time": 200.16107725498745,
+      "event": "registered",
+      "pid": 12
+    },
+    {
+      "time": 202.83835419679608,
+      "event": "arrival",
+      "pid": 13
+    },
+    {
+      "time": 204.69833446549356,
+      "event": "registered",
+      "pid": 13
+    },
+    {
+      "time": 204.69833446549356,
+      "event": "treatment_start",
+      "pid": 13,
+      "bypasses": 0
+    },
+    {
+      "time": 220.0697683575051,
+      "event": "treatment_start",
+      "pid": 10,
+      "bypasses": 1
+    },
+    {
+      "time": 220.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 222.65592835331043,
+      "event": "arrival",
+      "pid": 14
+    },
+    {
+      "time": 226.69388869790637,
+      "event": "registered",
+      "pid": 14
+    },
+    {
+      "time": 226.75215367006734,
+      "event": "treatment_start",
+      "pid": 14,
+      "bypasses": 0
+    },
+    {
+      "time": 229.86465402192152,
+      "event": "discharge",
+      "pid": 13
+    },
+    {
+      "time": 249.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 249.9618076602279,
+      "event": "treatment_start",
+      "pid": 11,
+      "bypasses": 2
+    },
+    {
+      "time": 251.35180020389947,
+      "event": "arrival",
+      "pid": 15
+    },
+    {
+      "time": 253.10359723725898,
+      "event": "discharge",
+      "pid": 10
+    },
+    {
+      "time": 256.4798250397655,
+      "event": "registered",
+      "pid": 15
+    },
+    {
+      "time": 271.76165416456513,
+      "event": "arrival",
+      "pid": 16
+    },
+    {
+      "time": 272.7740887910528,
+      "event": "discharge",
+      "pid": 14
+    },
+    {
+      "time": 276.0390506181524,
+      "event": "registered",
+      "pid": 16
+    },
+    {
+      "time": 278.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 279.89137049165726,
+      "event": "discharge",
+      "pid": 11
+    },
+    {
+      "time": 290.0527067709899,
+      "event": "arrival",
+      "pid": 17
+    },
+    {
+      "time": 293.69657530427554,
+      "event": "registered",
+      "pid": 17
+    },
+    {
+      "time": 298.6867119423009,
+      "event": "arrival",
+      "pid": 18
+    },
+    {
+      "time": 301.2519090244368,
+      "event": "registered",
+      "pid": 18
+    },
+    {
+      "time": 307.0697683575051,
+      "event": "treatment_start",
+      "pid": 12,
+      "bypasses": 2
+    },
+    {
+      "time": 307.0697683575051,
+      "event": "treatment_start",
+      "pid": 15,
+      "bypasses": 0
+    },
+    {
+      "time": 307.0697683575051,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 2
+    },
+    {
+      "time": 328.90715651380754,
+      "event": "arrival",
+      "pid": 19
+    },
+    {
+      "time": 330.0637889181754,
+      "event": "registered",
+      "pid": 19
+    },
+    {
+      "time": 335.0942903696871,
+      "event": "arrival",
+      "pid": 20
+    },
+    {
+      "time": 337.9858764579337,
+      "event": "registered",
+      "pid": 20
+    },
+    {
+      "time": 339.0385938932663,
+      "event": "treatment_start",
+      "pid": 16,
+      "bypasses": 0
+    },
+    {
+      "time": 341.75252466352566,
+      "event": "discharge",
+      "pid": 15
+    },
+    {
+      "time": 347.7486571717827,
+      "event": "discharge",
+      "pid": 12
+    },
+    {
+      "time": 349.6179144794511,
+      "event": "arrival",
+      "pid": 21
+    },
+    {
+      "time": 352.12145178611803,
+      "event": "registered",
+      "pid": 21
+    },
+    {
+      "time": 355.22070619767743,
+      "event": "treatment_start",
+      "pid": 17,
+      "bypasses": 0
+    },
+    {
+      "time": 355.22070619767743,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 356.92066733916437,
+      "event": "arrival",
+      "pid": 22
+    },
+    {
+      "time": 358.83927950871913,
+      "event": "registered",
+      "pid": 22
+    },
+    {
+      "time": 372.6995800506101,
+      "event": "arrival",
+      "pid": 23
+    },
+    {
+      "time": 376.7099737174056,
+      "event": "registered",
+      "pid": 23
+    },
+    {
+      "time": 384.22070619767743,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 399.6271207427127,
+      "event": "arrival",
+      "pid": 25
+    },
+    {
+      "time": 402.06558351958114,
+      "event": "treatment_start",
+      "pid": 18,
+      "bypasses": 0
+    },
+    {
+      "time": 403.0714817208504,
+      "event": "registered",
+      "pid": 25
+    },
+    {
+      "time": 403.6069077409752,
+      "event": "arrival",
+      "pid": 24
+    },
+    {
+      "time": 407.2270280709779,
+      "event": "discharge",
+      "pid": 16
+    },
+    {
+      "time": 408.8615448270371,
+      "event": "registered",
+      "pid": 24
+    },
+    {
+      "time": 413.90103439270223,
+      "event": "discharge",
+      "pid": 17
+    },
+    {
+      "time": 420.3700422492503,
+      "event": "treatment_start",
+      "pid": 19,
+      "bypasses": 0
+    },
+    {
+      "time": 420.3700422492503,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 425.1288255294061,
+      "event": "arrival",
+      "pid": 26
+    },
+    {
+      "time": 426.7721906459525,
+      "event": "treatment_start",
+      "pid": 20,
+      "bypasses": 0
+    },
+    {
+      "time": 428.6551636951333,
+      "event": "registered",
+      "pid": 26
+    },
+    {
+      "time": 431.09573378868856,
+      "event": "discharge",
+      "pid": 18
+    },
+    {
+      "time": 447.0,
+      "event": "arrival",
+      "pid": 27
+    },
+    {
+      "time": 449.3700422492503,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 2
+    },
+    {
+      "time": 449.85540036641476,
+      "event": "registered",
+      "pid": 27
+    },
+    {
+      "time": 454.67508744788836,
+      "event": "treatment_start",
+      "pid": 23,
+      "bypasses": 0
+    },
+    {
+      "time": 458.1028325195397,
+      "event": "discharge",
+      "pid": 19
+    },
+    {
+      "time": 470.8116027796928,
+      "event": "discharge",
+      "pid": 20
+    },
+    {
+      "time": 478.3700422492503,
+      "event": "treatment_start",
+      "pid": 21,
+      "bypasses": 1
+    },
+    {
+      "time": 478.3700422492503,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 501.4994088060596,
+      "event": "discharge",
+      "pid": 23
+    },
+    {
+      "time": 507.3700422492503,
+      "event": "treatment_start",
+      "pid": 22,
+      "bypasses": 1
+    },
+    {
+      "time": 507.3700422492503,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 528.3282783760231,
+      "event": "discharge",
+      "pid": 21
+    },
+    {
+      "time": 536.3700422492502,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 553.6046535107571,
+      "event": "discharge",
+      "pid": 22
+    },
+    {
+      "time": 565.3700422492502,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 2
+    },
+    {
+      "time": 594.3700422492502,
+      "event": "treatment_start",
+      "pid": 25,
+      "bypasses": 0
+    },
+    {
+      "time": 594.3700422492502,
+      "event": "treatment_start",
+      "pid": 24,
+      "bypasses": 0
+    },
+    {
+      "time": 618.3867992183629,
+      "event": "discharge",
+      "pid": 25
+    },
+    {
+      "time": 621.6442242693121,
+      "event": "discharge",
+      "pid": 24
+    },
+    {
+      "time": 633.1666995314483,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 662.1666995314483,
+      "event": "treatment_start",
+      "pid": 26,
+      "bypasses": 0
+    },
+    {
+      "time": 662.1666995314483,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 691.1666995314483,
+      "event": "treatment_start",
+      "pid": 27,
+      "bypasses": 0
+    },
+    {
+      "time": 700.1049842545962,
+      "event": "discharge",
+      "pid": 26
+    },
+    {
+      "time": 717.3615001757585,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    },
+    {
+      "time": 725.4825068406565,
+      "event": "discharge",
+      "pid": 27
+    },
+    {
+      "time": 746.3615001757585,
+      "event": "cycle_start",
+      "pid": null,
+      "size": 1
+    }
+  ]
+}

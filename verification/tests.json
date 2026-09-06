@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "tests_run": 11,
+  "test_names": [
+    "test_single_patient_analytic_timing_and_occupancy",
+    "test_overtime_integrates_across_closing_and_drains",
+    "test_scheduler_has_only_booking_information",
+    "test_all_requests_have_unique_bounded_appointments",
+    "test_identical_inputs_across_all_policies",
+    "test_deterministic_replay_including_trace",
+    "test_abundant_kits_make_dispatch_policies_identical",
+    "test_readiness_dispatch_activates_and_respects_bound",
+    "test_zero_bypass_bound_matches_fifo",
+    "test_empty_and_all_no_show_days",
+    "test_resource_conservation_under_stress"
+  ],
+  "python": "3.14.6",
+  "environment": "Fresh temporary virtual environment; pinned dependencies installed from PyPI",
+  "test_source_sha256": "d66b776d53886cd26e2675580439ad759f970795a309c9154a60f9c814f291c0"
+}

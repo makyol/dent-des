@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore verified DentDES dental clinic simulation results." />
+    <title>DentDES Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">DentDES</p>
+          <h1>Dental clinic flow under kit scarcity</h1>
+          <p class="lede">Explore the verified synthetic simulation results by demand, kit capacity, and dispatch policy.</p>
+        </div>
+        <div class="status" id="load-status" role="status">Loading results…</div>
+      </header>
+
+      <section class="controls card" aria-labelledby="controls-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Scenario</p>
+            <h2 id="controls-title">Choose a condition</h2>
+          </div>
+          <p class="microcopy">All values come from 50 paired replication blocks.</p>
+        </div>
+        <div class="control-grid">
+          <fieldset>
+            <legend>Requests per day</legend>
+            <div class="segmented" id="demand-controls"></div>
+          </fieldset>
+          <fieldset>
+            <legend>Kits per procedure class</legend>
+            <div class="segmented" id="kit-controls"></div>
+          </fieldset>
+          <label class="policy-field" for="policy-select">
+            <span>Policy detail</span>
+            <select id="policy-select"></select>
+          </label>
+        </div>
+      </section>
+
+      <section class="metric-grid" aria-label="Selected policy metrics">
+        <article class="metric card"><span>Mean wait</span><strong id="metric-wait">—</strong><small>arrival to treatment start</small></article>
+        <article class="metric card"><span>Daily P90 wait</span><strong id="metric-p90">—</strong><small>average of daily P90 values</small></article>
+        <article class="metric card"><span>Discharge overtime</span><strong id="metric-overtime">—</strong><small>minutes beyond closing</small></article>
+        <article class="metric card"><span>Attending patients</span><strong id="metric-attended">—</strong><small>mean per clinic day</small></article>
+      </section>
+
+      <section class="content-grid">
+        <article class="card chart-card">
+          <div class="section-heading">
+            <div><p class="eyebrow">Comparison</p><h2>Mean waiting time by policy</h2></div>
+            <span class="unit">minutes</span>
+          </div>
+          <div id="policy-chart" class="policy-chart" role="img" aria-label="Mean waiting time chart"></div>
+          <div class="legend" id="policy-legend"></div>
+        </article>
+
+        <article class="card detail-card">
+          <div class="section-heading">
+            <div><p class="eyebrow">Selected policy</p><h2 id="policy-title">—</h2></div>
+          </div>
+          <p id="policy-description" class="detail-lede">—</p>
+          <div class="ci-block">
+            <div><span>95% confidence interval</span><strong id="metric-ci">—</strong></div>
+            <div><span>Sample</span><strong>50 blocks</strong></div>
+          </div>
+          <p class="detail-note" id="policy-note">The confidence interval describes variability across the matched simulation replications. It does not represent uncertainty about a real clinic.</p>
+        </article>
+      </section>
+
+      <section class="card fairness-card">
+        <div class="section-heading">
+          <div><p class="eyebrow">Fairness diagnostic</p><h2>Bounded patient bypass</h2></div>
+          <p class="microcopy">Reference demand, two kits per class, uniform spacing.</p>
+        </div>
+        <div class="fairness-grid" id="fairness-grid"></div>
+        <p class="detail-note">A larger bypass bound lowers the mean wait but increases the share of patients who wait longer than under strict FCFS.</p>
+      </section>
+
+      <footer class="footer">
+        <p>Verified DentDES outputs · synthetic inputs · no patient records</p>
+        <p>Research artifact release in preparation</p>
+      </footer>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

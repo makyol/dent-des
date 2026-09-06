@@ -1,0 +1,5 @@
+{
+  "replication_csv_sha256": "bb0903b6ae819525da4161f439428f36037ee79477d5c7ebe6c317a71183e34e",
+  "script_sha256": "0d3d6497dca35eb2aea052001f4db3135a843c48534cbec39133fdaf8ce07016",
+  "ci": "paired replication t, df=49, critical=2.009575; marginal not multiplicity adjusted"
+}

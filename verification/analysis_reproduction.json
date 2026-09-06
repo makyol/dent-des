@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "environment": "Fresh temporary Python environment, isolated output directory",
+  "byte_identical_outputs": [
+    "results/summary.csv",
+    "results/paired_effects.csv",
+    "generated/robustness_rows.tex",
+    "generated/reference_rows.tex",
+    "generated/reference_table.tex",
+    "figures/demand_robustness.png",
+    "figures/model_flow.png",
+    "figures/paired_effects.png"
+  ],
+  "pdf_comparison": "PDF bytes not compared because creation timestamps can differ; PNG plots and table sources matched exactly"
+}

@@ -1,0 +1,24 @@
+{
+  "seed": 2026090502,
+  "replications": 50,
+  "days": 30,
+  "conditions": 12,
+  "runs": 72000,
+  "python": "3.14.6",
+  "simpy": "4.1.2",
+  "numpy": "2.5.0",
+  "model_sha256": "44b8f881bc24e7c7e6ecc63492e45af248f99f19e65fbeff19f07b58cc8767ff",
+  "protocol_sha256": "593f700e69928f5ce5fc8cb31f28fc7fced2295472064c08a93643ea6e3e2cca",
+  "config": {
+    "chairs": 4,
+    "dentists": 2,
+    "assistants": 3,
+    "kits_per_kind": 2,
+    "batch_capacity": 4,
+    "cycle_minutes": 29.0,
+    "kit_preparation": 8.0,
+    "closing": 480.0,
+    "max_bypasses": 2
+  },
+  "case": "synthetic terminating clinic days"
+}
