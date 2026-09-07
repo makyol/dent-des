@@ -32,6 +32,8 @@ The question links the appointment made in advance to the dispatch decision made
 
 DentDES evaluates these decisions in an offline clinic model. It separates the effects of spacing and patient selection, tests their combination, and varies demand and kit capacity. The model treats chair cleaning and kit release as separate events, so it can distinguish queue blocking from delay caused by insufficient workload capacity. The inputs are synthetic; real-time sensing, learning, and clinical deployment are outside the scope of this study.
 
+The contribution of this paper is a controlled, matched-input factorial evaluation of these two clinic policies. It quantifies when readiness-aware dispatch changes waiting under class-specific kit scarcity, tests whether the effect persists across demand and capacity levels, and reports the associated bypass and overtime tradeoffs. The study therefore contributes a bounded simulation comparison and an explicit evaluation protocol, rather than a claim of a deployed AI, IoT, or digital-twin system.
+
 \section{Related Work and Research Position}
 Atalan and Keskin use DES to estimate utilization and waiting in a dental clinic, comparing simulated activity with actual clinic counts \cite{atalan2023}. Chang and Chang evaluate individualized dental appointment scheduling with an artificial neural network and DES, including heterogeneous providers and patient pathways \cite{chang2018}. Kamali et al. model a dental clinic with additive manufacturing, inventory control, rest periods, and clinic--laboratory coordination \cite{kamali2022}. Together, these studies show that dental flow, scheduling, and inventory are established modeling settings.
 
@@ -60,7 +62,7 @@ When an assistant becomes free, turnover takes priority over a new treatment. Th
 \end{figure*}
 
 \subsection{Synthetic Inputs and Assumptions}
-Table~\ref{tab:inputs} lists the synthetic assumptions. Treatment duration follows a normal distribution with a 30-minute mean multiplied by the procedure-class factor and an 8-minute SD, clipped to 12--65 minutes. With probability 0.22, the model adds an independent exponential overrun with a 13-minute mean. These values are not fitted to clinic observations. The model draws patient inputs once before comparing policies. The scheduler sees request order and procedure class, but not future treatment duration, attendance, or resource availability.
+Table~\ref{tab:inputs} lists the synthetic assumptions. For each patient, the base treatment duration is first drawn from a normal distribution with a 30-minute mean multiplied by the procedure-class factor and an 8-minute SD, then clipped to 12--65 minutes. Independently, with probability 0.22, the model draws an exponential overrun with a 13-minute mean and adds it after clipping. No second upper clip is applied, so the realized duration can exceed 65 minutes only because of this overrun. These values are not fitted to clinic observations. The model draws patient inputs once before comparing policies. The scheduler sees request order and procedure class, but not future treatment duration, attendance, or resource availability.
 
 Instrument preparation takes eight minutes. The synthetic batch cycle takes 29 minutes, including a 24-minute processing component and a five-minute release/drying proxy. These values define computational scenarios, not validated sterilizer settings. Dental sterilization monitoring must follow manufacturer-specified time, temperature, and pressure conditions \cite{cdc}; the model does not shorten a cycle.
 
@@ -203,7 +205,7 @@ The dispatch rule needs the registered queue, each patient's kit class, availabl
 
 Several limitations restrict interpretation. First, all input distributions, kit classes, initial stocks, and processing assumptions are synthetic. The reference demand is a comparison setting, not a calibrated normal clinic. In the most constrained cases, draining the system extends far beyond a practical working day. These runs show workload incompatibility in a terminating model; an operating clinic would need cancellations, carryover, or more capacity.
 
-Second, the baseline is strict FCFS by registration. Clinics that already select feasible patients could see a smaller additional benefit. R1 assumes an accurate current resource state and omits observation delays, missing events, and implementation costs. The study does not test whether sensing infrastructure would provide that information. The class-specific kit abstraction and equal counts per class also need clinical review; one class is more common than the others.
+Second, the baseline is strict FCFS by registration. Clinics that already select feasible patients could see a smaller additional benefit. R1 assumes an accurate current resource state and omits observation delays, missing events, and implementation costs. The study does not test whether sensing infrastructure would provide that information. The class-specific kit abstraction and equal counts per class also need clinical review. Because procedure probabilities differ substantially (0.52, 0.28, 0.13, and 0.07) while each class receives the same number of kits, the design isolates class-specific scarcity but does not represent demand-proportional inventory. Equal counts can make common classes appear more constrained and rare classes less constrained than they would be under an inventory policy matched to case mix; results may change with class-specific stock levels and replenishment rules.
 
 Third, the primary experiment uses one bypass limit, and the supplementary bounds do not identify an optimal policy. The weak spacing effect does not show that duration-aware scheduling is generally inferior. Immediate-start sterilizer batches are often underfilled: reference FCFS uses 615.50 total sterilizer-minutes per day. Alternative batching rules would change this workload, including the part that occurs after closing. The experiment also omits provider specialization, breaks, emergencies, alternative duration distributions, and detailed instrument bills of materials. Each independent day starts with a recovered system.
 
@@ -214,7 +216,7 @@ DentDES evaluates two clinic decisions: how to space appointments and which read
 
 \begin{samepage}
 \section*{Data and Code Availability}
-The synthetic data and supporting source code for this study are available through a private anonymous reviewer link: \texttt{[PRIVATE\_ANONYMOUS\_LINK]}. No patient or other human-subject data were used. Following acceptance, the final artifact will be made publicly available with a persistent DOI.
+The synthetic data and supporting source code for this study are available through a private anonymous reviewer link: https://figshare.com/s/5b71e946fc1346497cea. No patient or other human-subject data were used. Following acceptance, the final artifact will be made publicly available with a persistent DOI.
 \end{samepage}
 
 \enlargethispage{1pt}
