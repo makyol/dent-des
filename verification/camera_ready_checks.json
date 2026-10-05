@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "date": "2026-09-29",
+  "date": "2026-10-05",
   "pages": 6,
   "paper_size": "612 x 792 pts (letter)",
   "pdf_version": "1.7",
@@ -15,7 +15,9 @@
   "author_names_in_extracted_text": true,
   "review_wording_in_extracted_text": false,
   "response_letter_included": false,
-  "persistent_doi_in_availability_statement": false,
-  "pdf_sha256": "ae8876efdeb01d05314e39727c6b17aeea61ae5e03567e944fcfbe7fb5a8267c",
-  "manuscript_source_sha256": "665d1bf6e355d11d188cd08a9d1e958561547874e2badb20d3fe87900f1663be"
+  "private_review_link_in_text": false,
+  "persistent_doi_in_availability_statement": true,
+  "data_doi": "https://doi.org/10.6084/m9.figshare.33442582.v1",
+  "pdf_sha256": "60bafa26c64167c7f2ce297140f4428eb0060dc442b7f56dda23af378ef82f53",
+  "manuscript_source_sha256": "5dc13dc091319fe4e041b7f0b494fcdd0494be0b49225eb380cbfe6c8c6e520f"
 }

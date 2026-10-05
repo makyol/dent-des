@@ -108,7 +108,7 @@ The manuscript is formatted for the IEEE conference template. The compiled PDF i
 
 ## Authors and citation
 
-Fatemeh Astaraki and Mehmet Ali Akyol, Ankara Medipol University. Cite this repository with the metadata in `CITATION.cff`.
+Fatemeh Astaraki and Mehmet Ali Akyol, Ankara Medipol University. Release v1.0.0 is archived on Figshare at <https://doi.org/10.6084/m9.figshare.33442582.v1>; the base DOI 10.6084/m9.figshare.33442582 always resolves to the latest version. Cite this repository with the metadata in `CITATION.cff`.
 
 ## License
 
