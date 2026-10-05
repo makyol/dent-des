@@ -18,11 +18,13 @@
     "akyol_beko_only": true,
     "astaraki_medipol": true
   },
+  "akyol_medipol_email_absent": true,
+  "akyol_beko_email_present": true,
   "review_wording_in_extracted_text": false,
   "response_letter_included": false,
   "private_review_link_in_text": false,
   "persistent_doi_in_availability_statement": true,
   "data_doi": "https://doi.org/10.6084/m9.figshare.33442582.v1",
-  "pdf_sha256": "a7596c3062206cefbe3d25c81320f4747c27f96de9877654466c778ba7fcdee5",
+  "pdf_sha256": "7f501a55ebc64b5022a7a3f86c6c3616b535367ab2d852374f1d5bd4971ada6d",
   "manuscript_source_sha256": "5dc13dc091319fe4e041b7f0b494fcdd0494be0b49225eb380cbfe6c8c6e520f"
 }
