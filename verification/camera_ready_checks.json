@@ -20,11 +20,13 @@
   },
   "akyol_medipol_email_absent": true,
   "akyol_beko_email_present": true,
+  "ieee_copyright_notice_on_page_1": true,
+  "ieee_copyright_notice": "979-8-3195-0669-6/26/$31.00 \u00a92026 IEEE",
   "review_wording_in_extracted_text": false,
   "response_letter_included": false,
   "private_review_link_in_text": false,
   "persistent_doi_in_availability_statement": true,
   "data_doi": "https://doi.org/10.6084/m9.figshare.33442582.v1",
-  "pdf_sha256": "7f501a55ebc64b5022a7a3f86c6c3616b535367ab2d852374f1d5bd4971ada6d",
-  "manuscript_source_sha256": "5dc13dc091319fe4e041b7f0b494fcdd0494be0b49225eb380cbfe6c8c6e520f"
+  "pdf_sha256": "211377a70c330aac066710747d019b5f98eff9f756a30f7b31f8416927bd3d81",
+  "manuscript_source_sha256": "e02a44e716b2785b9e5c5dc47120052fe0e8566e40c18a608ce6a68aba4c12a5"
 }
