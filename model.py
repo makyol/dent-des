@@ -1,4 +1,4 @@
-"""DentDES V5: matched-input terminating dental-clinic simulation.
+"""DentDES: matched-input terminating dental-clinic simulation.
 
 All operating distributions are synthetic assumptions. See PROTOCOL.md.
 No policy changes physical durations or attendance. No clinical advice.

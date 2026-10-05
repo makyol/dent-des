@@ -1,4 +1,4 @@
-"""Scientific invariants and behavioral checks for the V5 experiment."""
+"""Scientific invariants and behavioral checks for the DentDES experiment."""
 import dataclasses
 import math
 import unittest

@@ -1,6 +1,6 @@
 # DentDES Explorer
 
-This static site exposes the verified DentDES outputs in a browser. It is a results explorer, not a second implementation of the Python simulator: the charts and metrics are loaded from the archived synthetic experiment outputs.
+This static site presents the verified DentDES outputs in a browser. Charts and metrics are loaded from the archived synthetic experiment outputs.
 
 ## Local use
 
@@ -12,4 +12,4 @@ Publish the contents of this directory as the Pages site, or copy them to a dedi
 
 ## Scope
 
-The site uses synthetic inputs and reports the 50-block results used in the manuscript. It does not provide clinical advice and does not represent a live AI, IoT, or digital-twin deployment.
+The site uses synthetic inputs and reports the 50-block results used in the manuscript. It presents the study outputs and does not collect user data.

@@ -1,4 +1,4 @@
-"""Generate auditable tables, paired contrasts and publication figures from V5 CSV."""
+"""Generate auditable tables, paired contrasts and publication figures from DentDES CSV."""
 from pathlib import Path
 import argparse
 import json
