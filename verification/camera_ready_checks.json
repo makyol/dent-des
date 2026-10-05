@@ -14,11 +14,15 @@
   "cited_keys": 21,
   "author_names_in_extracted_text": true,
   "surname_styling_consistent": true,
+  "affiliations_in_extracted_text": {
+    "akyol_beko_only": true,
+    "astaraki_medipol": true
+  },
   "review_wording_in_extracted_text": false,
   "response_letter_included": false,
   "private_review_link_in_text": false,
   "persistent_doi_in_availability_statement": true,
   "data_doi": "https://doi.org/10.6084/m9.figshare.33442582.v1",
-  "pdf_sha256": "f991b0de4a2d5cd2dc0b2aba8cdf989fd9eba62f62c31d8fbc29370bf42583ee",
+  "pdf_sha256": "a7596c3062206cefbe3d25c81320f4747c27f96de9877654466c778ba7fcdee5",
   "manuscript_source_sha256": "5dc13dc091319fe4e041b7f0b494fcdd0494be0b49225eb380cbfe6c8c6e520f"
 }
