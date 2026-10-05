@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using the metadata below."
+title: "DentDES: discrete-event simulation of appointment spacing and readiness-aware dispatch in dental clinics"
+type: software
+authors:
+  - family-names: "Astaraki"
+    given-names: "Fatemeh"
+    affiliation: "Ankara Medipol University"
+    orcid: "https://orcid.org/0009-0005-3004-2206"
+  - family-names: "Akyol"
+    given-names: "Mehmet Ali"
+    affiliation: "Beko; Ankara Medipol University"
+    orcid: "https://orcid.org/0000-0001-8196-946X"
+repository-code: "https://github.com/makyol/dent-des"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Python implementation of a synthetic discrete-event simulation of dental
+  clinic patient flow and reusable instrument-kit availability, with the
+  archived results of a factorial experiment comparing appointment spacing and
+  readiness-aware dispatch.
+keywords:
+  - dental operations
+  - discrete-event simulation
+  - appointment scheduling
+  - instrument availability

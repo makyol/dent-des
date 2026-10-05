@@ -13,7 +13,7 @@ The study compares two operational policies:
 - **Appointment spacing:** whether changing the time between bookings reduces queueing and overtime.
 - **Readiness-aware dispatch:** whether serving another registered patient whose required kit is ready reduces blocking.
 
-The policies are evaluated in a synthetic clinic model with four chairs, two dentists, three assistants, a front-desk worker, a batch sterilizer and class-specific reusable instrument kits. The simulation is an offline decision study. It does not implement a trained AI model, an IoT deployment or a live digital twin.
+The policies are evaluated in a synthetic clinic model with four chairs, two dentists, three assistants, a front-desk worker, a batch sterilizer and class-specific reusable instrument kits. The experiment uses synthetic clinic inputs and evaluates offline policy behavior.
 
 ## Study design
 
@@ -21,7 +21,7 @@ The experiment uses four policy combinations, four demand levels and three kit-c
 
 The reference condition uses 28 requests per day and two kits per procedure class. At this condition, readiness-aware dispatch reduces mean arrival-to-treatment-start waiting from 127.94 to 92.96 minutes, a paired difference of −34.99 minutes (95% CI [−35.90, −34.07]). Appointment spacing alone changes waiting by +0.40 minutes. The dispatch effect becomes small when kit capacity is abundant, while overtime remains substantial in high-demand settings.
 
-These are conditional simulation findings. They identify situations in which instrument availability may constrain patient flow; they do not establish clinical effectiveness or deployment readiness.
+The findings identify operating conditions in which instrument availability may constrain patient flow and support future calibration work.
 
 ## Reproduce the experiment
 
@@ -49,6 +49,14 @@ To generate a separate copy of the experiment:
 .venv/bin/python validate.py --results reproduced --replay-all
 ```
 
+The exploratory diagnostics reported in the paper (bypass bounds and 50-kit controls, 36,000 additional clinic-day runs) are in `feedback_assessment/`. Check them against the saved inputs and primary results with:
+
+```sh
+.venv/bin/python feedback_assessment/check_report.py
+```
+
+`feedback_assessment/review_checks.py` regenerates the diagnostic files from the saved cohort inputs, and `feedback_assessment/SCOPE.md` states their design.
+
 Use a separate output directory for exploratory runs. For a quick debugging run:
 
 ```sh
@@ -66,8 +74,10 @@ Use a separate output directory for exploratory runs. For a quick debugging run:
 - `results/` — synthetic patient inputs, daily results, replication summaries, paired effects and example traces.
 - `figures/` — workflow and results figures in PDF and PNG formats.
 - `generated/` — generated LaTeX table fragments.
-- `paper/` — manuscript source, compiled manuscript and the IEEEtran class file.
+- `feedback_assessment/` — exploratory bypass-bound and abundant-kit diagnostics reported in the paper, with their check script.
+- `paper/` — manuscript source and the IEEEtran class file.
 - `verification/` — recorded test, replay and manuscript checks.
+- `LICENSE`, `LICENSE-DATA.md`, `CITATION.cff` — licenses and citation metadata.
 - `web/` — a static browser-based results explorer for GitHub Pages.
 
 ## Interpreting the results
@@ -78,16 +88,28 @@ Use a separate output directory for exploratory runs. For a quick debugging run:
 
 ## Scope and limitations
 
-The inputs, service distributions, kit classes and staffing assumptions are synthetic. The model does not include patient records, live sensor streams, clinical validation, provider-specific calendars, cancellations, carryover between days or a trained prediction model. The results should therefore be used to understand policy behavior under the stated assumptions and to design a future calibration study with observed clinic and instrument-circulation data.
+The inputs, service distributions, kit classes and staffing assumptions are synthetic. Future calibration will use observed clinic and instrument-circulation data.
 
-The browser explorer presents the packaged results; it is not a second simulator implementation. Reproduction checks establish execution and internal consistency, not external clinical validity.
+The browser explorer presents the packaged results alongside the simulation outputs. Reproduction checks establish execution and internal consistency.
 
 ## Manuscript build
 
 From `paper/`, build the manuscript with:
 
 ```sh
-latexmk -pdf -interaction=nonstopmode -halt-on-error -jobname=DentDES_ISMSIT_2026_anonymous manuscript.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error -jobname=DentDES_ISMSIT_2026_camera_ready manuscript.tex
 ```
 
-The manuscript is formatted for the IEEE conference template. The repository can be archived with a release tag so that the code, synthetic inputs and reported results remain associated with a specific version of the study.
+The manuscript is formatted for the IEEE conference template. The compiled PDF is not distributed in this repository. The repository can be archived with a release tag so that the code, synthetic inputs and reported results remain associated with a specific version of the study.
+
+## Recorded hashes
+
+`results/manifest.json`, `results/analysis_manifest.json` and `feedback_assessment/manifest.json` record SHA-256 hashes of `model.py`, `PROTOCOL.md` and `analyze.py`. The hashes taken when the experiment was evaluated (5 September 2026) are kept in the `evaluation_*` fields. The three files were edited afterwards (docstring and wording changes) and the original bytes are not retained, so the main fields hold the hashes of the files in this repository. `verification/shipped_code_replay.json` records that these files reproduce all 72,000 archived clinic days. In `verification/supplementary_checks.json`, `primary_model_and_protocol_unchanged` refers to these shipped files.
+
+## Authors and citation
+
+Fatemeh Astaraki and Mehmet Ali Akyol, Ankara Medipol University. Cite this repository with the metadata in `CITATION.cff`.
+
+## License
+
+Code is released under the MIT License (`LICENSE`). Data, results, figures and documentation are released under CC BY 4.0 (`LICENSE-DATA.md`). The manuscript in `paper/` is not covered by either license.
