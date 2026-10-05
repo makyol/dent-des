@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "design": "post-review exploratory diagnostics; uniform spacing only",
+  "clinic_day_runs": 36000,
+  "original_case_matches": 12000,
+  "abundant_kit_paired_patient_records_identical": 6000,
+  "model_sha256": "3cebb6874879d0f784b444b05ce2cf48d419a3cc72728ec68bc271c39800ccad",
+  "evaluation_model_sha256": "44b8f881bc24e7c7e6ecc63492e45af248f99f19e65fbeff19f07b58cc8767ff",
+  "primary_protocol_sha256": "09f250bae343c312d4721fccc6b3078ba5c83eb2aeaf022222b37356b844108a",
+  "evaluation_protocol_sha256": "593f700e69928f5ce5fc8cb31f28fc7fced2295472064c08a93643ea6e3e2cca",
+  "diagnostic_script_sha256": "fed61501784eae2094c5780a1471d4271e243677373c695a525278c8d25176dd",
+  "diagnostic_scope_sha256": "646a21bcaa0e1af7966dba0280b1c3ab09cd24eeeec761050603dafc0d2d60ae",
+  "hash_note": "Hashes recorded at evaluation (5 Sep 2026) are kept in the evaluation_* fields. model.py, PROTOCOL.md and analyze.py were edited afterwards (docstring and wording changes) and the original bytes are not retained, so the shipped files carry new hashes. The shipped code reproduces all 72,000 archived clinic days; see verification/shipped_code_replay.json."
+}

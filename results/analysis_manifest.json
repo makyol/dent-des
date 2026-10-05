@@ -1,5 +1,7 @@
 {
   "replication_csv_sha256": "bb0903b6ae819525da4161f439428f36037ee79477d5c7ebe6c317a71183e34e",
-  "script_sha256": "0d3d6497dca35eb2aea052001f4db3135a843c48534cbec39133fdaf8ce07016",
-  "ci": "paired replication t, df=49, critical=2.009575; marginal not multiplicity adjusted"
+  "script_sha256": "58a8aed8c12eb8f6d4acf4f9edaaa87776f99cf80a3c9d035514c99c2d8580fe",
+  "evaluation_script_sha256": "0d3d6497dca35eb2aea052001f4db3135a843c48534cbec39133fdaf8ce07016",
+  "ci": "paired replication t, df=49, critical=2.009575; marginal not multiplicity adjusted",
+  "hash_note": "Hashes recorded at evaluation (5 Sep 2026) are kept in the evaluation_* fields. model.py, PROTOCOL.md and analyze.py were edited afterwards (docstring and wording changes) and the original bytes are not retained, so the shipped files carry new hashes. The shipped code reproduces all 72,000 archived clinic days; see verification/shipped_code_replay.json."
 }
